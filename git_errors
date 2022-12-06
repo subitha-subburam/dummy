@@ -1,0 +1,16 @@
+fatal: unable to access 'https://github.com/subitha-subburam/dummy.git/': The requested URL returned error: 403
+
+solution:
+
+The error may be, the computer has saved a git username and password so if you shift to another account the error 403 will appear. Below is the solution
+For Windows you can find the keys here:
+
+control panel > user accounts > credential manager > Windows credentials > Generic credentials
+
+Next, remove the Github keys.
+
+In mac
+1-In Finder, search for the Keychain Access app.
+2In Keychain Access, search for github.com.
+3-Find the "internet password" entry for github.com.
+4-Edit or delete the entry accordingly.
